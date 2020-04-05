@@ -1,0 +1,590 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-size: 14px;
+    line-height: 24px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+/* global css goes  */
+.global-title h4 {
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 600;
+    color: #008ed6;
+    text-transform: uppercase;
+}
+.global-title h2 {
+    font-size: 44px;
+    line-height: 51px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin: 0px 0px 20px 0px;
+}
+.global-title p{
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #000000;
+}
+
+
+
+/* header css start */
+
+
+.header_section{
+    width: 100%;
+    background: url(../image/banner-back.png) center top no-repeat;
+    background-size: cover;   
+}
+
+.header_section .navbar-expand-lg .navbar-collapse {
+    padding: 0px 110px 0px 0px;
+}
+
+.header_section .bg-light {
+    background-color: transparent!important;
+    padding: 0px 0px 0px 100px;
+} 
+
+.header_section .navbar-light .navbar-nav .active>.nav-link{
+    color: white;
+}
+
+.header_section .navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 36px 59px 30px 0px;
+}
+.header_section .navbar-light .navbar-nav .nav-link i {
+    color: rgb(255, 255, 255);
+    font-size: 27px;
+    font-weight: 400;
+    margin: 0px -80px 0px 59px;
+}
+
+/* header css end */
+
+/* banner css start */
+
+.banner{
+    width:100%;
+    padding: 90px 0px 20px 0px  ;
+}
+
+.banner_inner {
+    width: 100%;
+    padding: 0px 0px 0px 30px;
+}
+
+.banner_inner h2 {
+    font-size: 44px;
+    line-height: 51px;
+    font-weight: 600;
+    color: #ffff;
+    width: 100%;
+    margin: 155px 0px 20px 0px;
+}
+
+.banner_inner p {
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #fff;
+    width: 75%;
+}
+
+.double_button{
+    width: 100%;
+    padding: 25px 0px 0px 0px ;
+}
+
+.double_button .btn-info {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 35px;
+    text-transform: uppercase;
+    border: 1px solid #fc6a42;
+    border-radius: 5px;
+    color: #ffff;
+    background-color: #fc6a42;
+    transition: 1s ease-in;
+    margin: 0px 10px 0px 0px;
+}
+
+.double_button .btn-info:hover{
+    color:#fc6a42;
+    background-color:#fff;
+    transition: 1s ease-in;
+
+}
+
+.double_button .btn-primary{
+    width: 100%;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 35px;
+    text-transform: uppercase;
+    border: 1px solid #4466c9;
+    border-radius: 3px;
+    color: #ffff;
+    background-color:#4466c9;
+    transition: 1s ease-in;
+}
+.double_button .btn-primary:hover{
+    color:#4466c9;
+    background-color:#fff;
+    transition: 1s ease-in;
+}
+
+
+.banner_inner img {
+    margin-left: -85px;
+}
+
+.scroll_button {
+    width: 100%;
+    padding: 70px 0px 0px 0px;
+}
+
+
+/* banner css end  */
+
+
+/* features section start */
+
+.features-section{
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.features-section .global-title h4 {
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 600;
+    color: #969696;
+
+}
+.features-section .global-title h2 {
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 600;
+    color: #648cff;
+    margin: 0px 0px 10px 0px;
+    text-transform: uppercase;
+}
+
+.inner-features{
+    width: 100%;
+    padding: 50px 0px 0px 0px ;
+}
+
+.inner-text {
+    width: 100%;
+    padding: 0px 0px 0px 20px;
+}
+.inner-features .inner-text h2{
+    width: 100%;
+    font-size: 25px;
+    line-height:32px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin:10px 0px ;
+}
+.inner-features .inner-text p{
+    width: 100%;
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #999999;
+}
+
+.circle-image {
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+}
+
+/* features section end  */
+
+
+/* widgets css */
+
+.widget-section{
+    width: 100%;
+    padding: 80px 0px ;
+}
+
+.widget-section .global-title h2{
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 600;
+    color: #648cff;
+    margin: 0px 0px 10px 0px;
+    text-transform: uppercase;
+}
+
+
+.widget-section .global-title h4{
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 600;
+    color: #969696;
+}
+/* widgets css end */
+
+
+/* screenshot css start */
+
+.screenshot-section {
+    width: 100%;
+    padding: 50px 0px 100px 0px;
+}
+.screenshot-section .global-title{
+padding-bottom: 180px;
+}
+
+.screenshot-section .global-title h2 {
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 600;
+    color: #648cff;
+    margin: 0px 0px 10px 0px;
+    text-transform: uppercase;
+}
+.screenshot-section .global-title h4{
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 600;
+    color: #969696;
+}
+
+.screenshot-section .image-beautiful {
+    margin-left: 20px;
+}
+
+.screenshot-section .screenshot-left{
+padding-top: 100px ;
+
+}
+
+.screenshot-section .screenshot-left .global-title h2 {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 600;
+    color:  #648cff;
+    margin: 30px 0px;
+}
+.screenshot-section .screenshot-left .global-title p {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #969696;
+    width: 70%;
+    padding-bottom: 20px;
+}
+
+/* screenshot css end */
+
+
+/* sun start */
+
+.sun-section {
+    width: 100%;
+    padding: 50px 0px 100px 0px;
+}
+.sun-section .global-title{
+padding-bottom: 150px;
+}
+
+.sun-section .global-title h2 {
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 600;
+    color: #648cff;
+    margin: 0px 0px 10px 0px;
+    text-transform: uppercase;
+}
+.sun-section .global-title h4{
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 600;
+    color: #969696;
+}
+
+.sun-section .sun-image {
+  
+}
+
+.sun-section .sun-left{
+padding-top: 100px ;
+padding-left: 70px;
+
+}
+.sun-section .sun-left .global-title h2 {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 600;
+    color:  #648cff;
+    margin: 30px 0px;
+}
+.sun-section .sun-left .global-title p {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #969696;
+    width: 70%;
+    padding-bottom: 20px;
+}
+
+/* sun end */
+
+/* rain css start */
+
+.rain-section {
+    width: 100%;
+    padding: 50px 0px 100px 0px;
+}
+.rain-section .global-title{
+padding-bottom: 180px;
+}
+
+.rain-section .global-title h2 {
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 600;
+    color: #648cff;
+    margin: 0px 0px 10px 0px;
+    text-transform: uppercase;
+}
+.rain-section .global-title h4{
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 600;
+    color: #969696;
+}
+
+.rain-section .rain-image {
+    margin-left: 20px;
+}
+
+.rain-section .rain-left{
+padding-top: 100px ;
+
+}
+
+.rain-section .rain-left .global-title h2 {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 600;
+    color:  #648cff;
+    margin: 30px 0px;
+}
+.rain-section  .rain-left .global-title p {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #969696;
+    width: 70%;
+    padding-bottom: 20px;
+}
+
+/* rains css end */
+
+
+/* review css start */
+
+.review-section{
+    width: 100%;
+    padding: 70px 0px ;
+}
+
+.review-section .row{
+    margin: 0px 100px;
+}
+
+.review-section .global-title{
+padding-bottom: 50px;
+}
+
+.review-section .global-title h2{
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 600;
+    color: #648cff;
+    margin: 0px 0px 10px 0px;
+    text-transform: uppercase;
+}
+.review-section .global-title h4{
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 600;
+    color: #969696;
+}
+
+.review-section .review-inner {
+    padding-top: 64px;
+}
+.review-section .review-inner .sup{
+    font-size: 50px;
+    line-height: 38px;
+    font-weight: 600;
+    color: #070707;
+}
+.review-section .review-inner .sub {
+    font-size: 50px;
+    font-weight: 600;
+    color: #070707;
+    margin-left: 367px;
+}
+
+.review-section .review-inner p {
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #353854;
+    width: 100%;
+}
+
+.review-section .review-inner h5 {
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #353854;
+    margin-top: -53px;
+}
+
+/* review css end */
+
+/* the app start */
+
+.app-section{
+    width:100%;
+    padding: 90px 0px 60px 0px  ;
+    background: url(../image/bg-back.png) center top no-repeat;
+    background-size: cover;
+}
+
+.app-section .app_inner {
+    width: 100%;
+    padding: 0px 0px 0px 10px;
+}
+
+.app-section .app_inner h2 {
+    font-size: 37px;
+    line-height: 40px;
+    font-weight: 600;
+    color: #ffff;
+    width: 100%;
+    margin: 20px 0px 25px 0px;
+}
+
+.app-section .app_inner p {
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #fff;
+    width: 70%;
+    padding-bottom: 25px;
+}
+
+.app-section .app_inner .app_img {
+    
+}
+
+.app-section .app_inner .app_img .appstore {
+    padding-right: 5px;
+}
+
+/* .scroll_button {
+    width: 100%;
+    padding: 70px 0px 0px 0px;
+} */ 
+
+/* the app end */
+
+
+
+/* footer css  */
+
+.footer_section {
+    width: 100%;
+    background: #353854;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+/* .footer_section::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:#353854;
+} */
+
+.footer_section .navbar-expand-lg .navbar-collapse {
+    padding: 0px 110px 0px 0px;
+}
+
+.footer_section .bg-light {
+    background-color: transparent!important;
+    padding: 20px 0px 0px 100px;
+   
+}
+
+.footer_section .container{
+        border-bottom: 1px solid white;
+}
+
+.footer_section .navbar-light .navbar-nav .active>.nav-link{
+    color: white;
+}
+
+.footer_section .navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 36px 59px 30px 0px;
+}
+.footer_section .navbar-light .navbar-nav .nav-link i {
+    color: rgb(255, 255, 255);
+    font-size: 27px;
+    font-weight: 400;
+    margin: 0px -80px 0px 59px;
+}
+
+.footer_section .footer-text p {
+    color: #565b87;
+    padding-top: 25px;
+}
+.footer_section .footer-img img {
+    /* margin: 73px -180px 0px 0px; */
+    color: #565b87;
+    position: fixed;
+    left: 93%;
+    top: 93%;
+}
+/* footer css end */
+
+
+
+
